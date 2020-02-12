@@ -38,6 +38,21 @@ can be done at [https://azure.microsoft.com/free/](https://azure.microsoft.com/f
 This document describes [how to create a Cognitive Api Key on
 Azure](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup).
 
+## Installation
+Assuming you have Go installed, you can use `go get` (if you're using Go 1.7 or newer):
+```
+go get -u github.com/hd9/gotrans
+```
+
+Make sure the `~/go/bin` path is present in your `$PATH` env var with:
+```
+PATH=$PATH:~/go/bin
+```
+
+Then run `gotrans` with:
+```s
+gotrans -h
+```
 
 ## Usage
 The tool can be used from the command line and accepts redirections and files
